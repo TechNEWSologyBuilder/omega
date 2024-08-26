@@ -493,7 +493,7 @@ v0.1.0.7
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">TechNEWSology Updater - Tools</summary>
 		<description lang="el_GR">[B][COLOR orange]-[/COLOR][/B] Αυτόματη ενημέρωση αρχείων και συντομεύσεων του Build
-[B][COLOR orange]-[/COLOR][/B] Καθαρή εγκατάσταση του Build με επιλογή διατήρησης στοιχείων στη νέα μετάβαση[CR]  χωρίς κωδικό από το site GrecoTM
+[B][COLOR orange]-[/COLOR][/B] Καθαρή εγκατάσταση του Build με επιλογή διατήρησης στοιχείων στη νέα μετάβαση
 [B][COLOR orange]-[/COLOR][/B] Αυτοματοποιημένη καταχώριση νέων κλειδιών YouTube Api
 [B][COLOR orange]-[/COLOR][/B] Επιλογή αυτοματοποιημένης καταχώρισης τιμών Advanced Settings
 [B][COLOR orange]-[/COLOR][/B] Ομαδοποιημένες συντομεύσεις εργαλείων και ρυθμίσεων κελύφους
@@ -1796,23 +1796,25 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.TechNEWSology" name="TechNEWSology Repository" version="0.2.3" provider-name="TechNEWSology">
 	<extension point="xbmc.addon.repository" name="TechNEWSology Repository">
-		<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/</datadir>
-			<dir>
+			<dir minversion="18.9.9">
 				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/</datadir>
+			</dir>
+			<dir minversion="19.9.9">
+				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/nexus/main/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/nexus/main/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/nexus/main/</datadir>
+			</dir>
+			<dir minversion="20.9.9">
+				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/</datadir>
 			</dir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://bitbucket.org/technewsology/tech/src/main/addons.xml</info>
-				<checksum>https://bitbucket.org/technewsology/tech/src/main/addons.xml.md5</checksum>
-				<datadir zip="true">https://bitbucket.org/technewsology/tech/src/main/</datadir>
 			</dir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
