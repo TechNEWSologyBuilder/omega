@@ -482,7 +482,7 @@ v0.1.0.7
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]TechNEWSology Build[/COLOR][/B]" version="20.33" provider-name="TechNEWSology">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]TechNEWSology Build[/COLOR][/B]" version="20.34" provider-name="TechNEWSology">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
