@@ -482,7 +482,7 @@ v0.1.0.7
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]TechNEWSology Build[/COLOR][/B]" version="20.34" provider-name="TechNEWSology">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]TechNEWSology Build Wizard[/COLOR][/B]" version="21.01" provider-name="TechNEWSology">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -491,7 +491,7 @@ v0.1.0.7
 	</extension>
 	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">TechNEWSology Updater - Tools</summary>
+		<summary lang="en_GB">TechNEWSology Build Wizard / Updater</summary>
 		<description lang="el_GR">[B][COLOR orange]-[/COLOR][/B] Αυτόματη ενημέρωση αρχείων και συντομεύσεων του Build
 [B][COLOR orange]-[/COLOR][/B] Καθαρή εγκατάσταση του Build με επιλογή διατήρησης στοιχείων στη νέα μετάβαση
 [B][COLOR orange]-[/COLOR][/B] Αυτοματοποιημένη καταχώριση νέων κλειδιών YouTube Api
@@ -500,7 +500,7 @@ v0.1.0.7
 [B][COLOR orange]-[/COLOR][/B] Επιλογή εγκατάστασης Binary Addons και Καθαρισμός (Packages-Thumbnails)
 [B][COLOR orange]-[/COLOR][/B] Δημιουργία αντιγράφου ασφαλείας αρχείου zip του Build
 [B][COLOR orange]-[/COLOR][/B] Υπηρεσίες Εξουσιοδότησης και Επαναφοράς Debrid</description>
-		<disclaimer lang="en_GB">[B][COLOR orange]TechNEWSology Updater - Tools[/COLOR][/B]</disclaimer>
+		<disclaimer lang="en_GB">[B][COLOR orange]TechNEWSology Build Wizard / Updater[/COLOR][/B]</disclaimer>
 		<platform>all</platform>
 		<license>GPL-2.0-or-later</license>
 		<assets>
