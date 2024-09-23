@@ -205,7 +205,7 @@ v0.1.0.7
     </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="21.0.0" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="21.0.1" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.pil" />
         <import addon="script.module.six" />
