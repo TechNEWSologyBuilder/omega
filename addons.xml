@@ -2137,7 +2137,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.blackscrapers" name="Blackscrapers Module" version="1.00.24" provider-name="janedoe">
+<addon id="script.module.blackscrapers" name="Blackscrapers Module" version="1.00.24t" provider-name="janedoe">
     <requires>
         <import addon="script.module.beautifulsoup4" />
         <import addon="script.module.requests" />
