@@ -987,7 +987,7 @@ v0.1.0.7
   </extension>
 </addon>
 
-<addon id="plugin.video.blacklodge" name="Blacklodge" provider-name="bob" version="1.05.20">
+<addon id="plugin.video.blacklodge" name="Blacklodge" provider-name="bob" version="1.05.21">
     <requires>
         <import addon="resource.images.blacklodge.artwork" />
         <import addon="script.module.requests" />
