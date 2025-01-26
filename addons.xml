@@ -1570,6 +1570,22 @@ provider-name="jurialmunkey">
   </extension>
 </addon>
 
+<addon id="plugin.video.xcodes" version="1.0.0" name="X-Codes Client" provider-name="">
+    <extension point="xbmc.python.pluginsource" library="xcodes.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Xcodes Client</summary>
+        <description lang="en">Xcode Client</description>
+        <platform>all</platform>
+        <language>en</language>
+        <license>GPLv2</license>
+        <assets>
+        <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.atlas" name="Atlas Repository" version="0.0.4" provider-name="NP-Bugatsinho - TechNEWSology">
 	<extension point="xbmc.addon.repository" name="Atlas Repository">
 		<dir>
