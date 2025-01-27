@@ -1570,7 +1570,7 @@ provider-name="jurialmunkey">
   </extension>
 </addon>
 
-<addon id="plugin.video.xcodes" version="1.0.0" name="X-Codes Client" provider-name="">
+<addon id="plugin.video.xcodes" version="1.0.1" name="X-Codes Client" provider-name="">
     <extension point="xbmc.python.pluginsource" library="xcodes.py">
         <provides>video</provides>
     </extension>
