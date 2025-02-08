@@ -717,7 +717,7 @@ v0.1.0.7
 
 </addon>
 
-<addon id="plugin.video.apex_sports" name="ApeX Sports" version="1.0.6b" provider-name="arxtic.ape">
+<addon id="plugin.video.apex_sports" name="ApeX Sports" version="1.0.6t" provider-name="arxtic.ape">
 	<requires>
 		<!-- <import addon="xbmc.python" version="2.1.0"/> -->
 		<import addon="script.module.beautifulsoup4" version="3.2.1"/>
