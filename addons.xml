@@ -1141,7 +1141,7 @@ In addition to what livestreams allowed you to do, you can now,
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.99t14" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo|233  -- Tk-W">
+	id="plugin.video.macvod" version="1.99t15" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo|233 -- Tk-W">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
@@ -1151,7 +1151,6 @@ In addition to what livestreams allowed you to do, you can now,
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
-
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="es">Personal addon for IPTV</summary>
@@ -1166,7 +1165,6 @@ In addition to what livestreams allowed you to do, you can now,
 		</assets>
 		<language>en</language>
 	</extension>
-
 </addon>
 
 <addon id="plugin.video.microjen" name="MicroJen" version="2.0t" provider-name="MicroJen Community">
