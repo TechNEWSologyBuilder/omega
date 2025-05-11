@@ -1097,7 +1097,7 @@ v0.1.0.7
 	</extension>
 </addon>
 
-<addon id="plugin.video.iptvxc" name="[B][COLOR blue]XCUI Streams[/B][/COLOR]" version="3.2.8t" provider-name="[B][COLOR orange]Fire TV[/B][/COLOR]">
+<addon id="plugin.video.iptvxc" name="[B][COLOR blue]XCUI Streams[/B][/COLOR]" version="3.2.8t1" provider-name="[B][COLOR orange]Fire TV[/B][/COLOR]">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>
