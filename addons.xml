@@ -717,7 +717,7 @@ v0.1.0.7
 
 </addon>
 
-<addon id="plugin.video.apex_sports" name="ApeX Sports" version="1.0.6t" provider-name="arxtic.ape">
+<addon id="plugin.video.apex_sports" name="ApeX Sports" version="1.0.6t2" provider-name="arxtic.ape">
 	<requires>
 		<!-- <import addon="xbmc.python" version="2.1.0"/> -->
 		<import addon="script.module.beautifulsoup4" version="3.2.1"/>
@@ -726,8 +726,6 @@ v0.1.0.7
 		<import addon="script.module.dateutil"/>
 		<import addon="script.module.pytz"/>
 		<import addon="script.module.tzlocal"/>
-
-
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -735,12 +733,10 @@ v0.1.0.7
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Simple sports addon.</summary>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-
 		<platform>all</platform>
-
 		<assets>
-        <icon>icon.jpg</icon>
-    </assets>
+			<icon>icon.jpg</icon>
+		</assets>
 	</extension>
 </addon>
 
