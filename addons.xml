@@ -1229,7 +1229,7 @@ In addition to what livestreams allowed you to do, you can now,
   </extension>
 </addon>
 
-<addon id="plugin.video.scrubsv2" version="5.1.42t3" name="[COLOR orange]Scrubs v2[/COLOR]" provider-name="JewBMX">
+<addon id="plugin.video.scrubsv2" version="5.1.42t4" name="[COLOR orange]Scrubs v2[/COLOR]" provider-name="JewBMX">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
