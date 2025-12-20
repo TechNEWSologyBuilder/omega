@@ -3112,4 +3112,47 @@ v5.3.2 (2020-09-30)
 		<news>[I][COLOR FFFF9800]v6.1.8[/COLOR][/I][CR]- Add support for Rotten Tomatoes and Metacritic ratings from Universal Movie Scraper[CR]- Update radio button images from Estuary[CR]- Fix auto fullscreen music for partymode[CR]- Test adding separate Fixed\Wrap settings for each supported viewtype[CR]- Fix unnecessary "Minutes" label on set genres in MyFlix[CR][CR][B]All updates may contain various changes and/or improvements[/B][CR]For a more complete list visit:[CR][I][COLOR FFFF9800]https://github.com/mikesilvo164/Aeon-Nox-SiLVO/commits/master[/COLOR][/I][CR][CR][I][COLOR FFFF9800]v6.1.7[/COLOR][/I][CR]- GUI bump 5.14.0[CR]- Add settings to Skin Helper Service in Skin settings > Help > Supported add-ons[CR]- Fix Season posters in DialogVideoInfo[CR]- Add Landscape and Wall views for sets[CR]- *Change low menu position to skin default*[CR]- Misc PVR updates and changes[CR]- Add Fullscreen info for add-ons and recordings[CR]- Fix square posters for list Widgets[CR]- Auto hide unwatched episode thumbs when disabled in System > Media > Videos > Show information for unwatched items</news>
 	</extension>
 </addon>
+
+<addon id="weather.gismeteo" name="Gismeteo" version="0.6.5" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.27.1+matrix.1"/>
+		<import addon="script.module.dateutil" version="2.8.1+matrix.1"/>
+		<import addon="script.module.pytz" version="2023.3.0+matrix.1"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+	<extension point="xbmc.python.weather" library="default.py"/>
+		<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="cs_CZ">Predpoveď počasia z Gis-Meteo</summary>
+		<description lang="cs_CZ">Počasie, mapy, kvalita vzduchu a pyľové údaje z Gis-meteo.com, rainviewer.com, weather.gc.ca a met.no</description>
+		<summary lang="de_DE">Wettervorhersage von Gis-Meteo</summary>
+		<description lang="de_DE">Wetter, Karten, Luftqualität und Pollen Vorhersage von Gis-meteo.com, rainviewer.com, weather.gc.ca und met.no</description>
+		<summary lang="en_GB">Weather forecast from Gis-Meteo</summary>
+		<description lang="en_GB">Weather, maps, airquality and pollen forecast from Gis-meteo.com, rainviewer.com, weather.gc.ca and met.no</description>
+		<summary lang="hu_HU">Időjárás-előrejelzés az Gis-Meteo-ból</summary>
+		<description lang="hu_HU">Időjárás, térképek, levegőminőség és pollenelőrejelzés az Gis-meteo.com, a rainviewer.com, a weather.gc.ca és a met.no oldalakról</description>
+		<summary lang="id_ID">Prakiraan cuaca oleh Gis-Meteo</summary>
+		<description lang="id_ID">Ramalan cuaca, peta, kualitas udara, dan serbuk sari dari Gis-meteo.com, rainviewer.com, weather.gc.ca dan met.no</description>
+		<summary lang="sk_SK">Predpoveď počasia z Gis-Meteo</summary>
+		<description lang="sk_SK">Počasie, mapy, kvalita vzduchu a peľové údaje z Gis-meteo.com, rainviewer.com, weather.gc.ca a met.no</description>
+		<summary lang="ta_IN">திறந்த-மெட்டியோவிலிருந்து வானிலை முன்னறிவிப்பு</summary>
+		<description lang="ta_IN">திறந்த-மெட்டியோ.காம், ரெயின்வியூவர்.காம், வானிலை. GC.CA மற்றும் MET.NO இலிருந்து வானிலை, வரைபடங்கள், காற்றோட்டம் மற்றும் மகரந்த முன்னறிவிப்பு</description>
+		<summary lang="uk_UA">Прогноз погоди від Gis-Meteo</summary>
+		<description lang="uk_UA">Прогноз погоди, мап , якість повітря та пилку від Gis-meteo.com, rainviewer.com, weather.gc.ca та met.no</description>
+		<summary lang="zh_CN">Gis-Meteo 提供的天气预报</summary>
+		<description lang="zh_CN">天气、地图、空气质量和花粉预报来自 Gis-meteo.com、rainviewer.com、weather.gc.ca 和 met.no</description>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=323624</forum>
+		<website>https://www.gismeteo.com/</website>
+		<email>vl.maksime@gmail.com</email>
+		<source>https://github.com/vlmaksime/weather.gismeteo</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<banner>resources/banner.png</banner>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
 </addons>
