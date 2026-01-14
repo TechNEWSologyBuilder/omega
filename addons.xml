@@ -1112,7 +1112,7 @@ v0.1.0.7
 	</extension>
 </addon>
 
-<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="3.0.0~alpha4t" provider-name="gujal">
+<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="3.0.0~alpha5t" provider-name="gujal">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
