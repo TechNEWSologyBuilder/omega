@@ -1234,7 +1234,7 @@ In addition to what livestreams allowed you to do, you can now,
         <import addon="script.module.simplejson" />
         <import addon="script.module.requests" />
         <import addon="script.module.resolveurl" />
-        <import addon="script.scrubsv2.artwork" optional="true" />
+        <import addon="script.scrubsv2.artwork" version="1.6"/>
         <import addon="script.trakt" optional="true" />
         <import addon="plugin.video.json_iptv" optional="true" />
         <import addon="plugin.video.youtube" optional="true" />
