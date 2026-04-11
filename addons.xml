@@ -2758,6 +2758,19 @@ v1.0.25 (marcelveldt)
   </extension>
 </addon>
 
+<addon id="script.scrubsv2.artwork" version="1.6" name="[COLOR orange]Scrubs v2 Artwork[/COLOR]" provider-name="JewBMX">
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Scrubs v2 Artwork</summary>
+        <description>Scrubs v2 Artwork</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <news>Changed the fanart to be a simple small image that has a matching color tone to the theme chosen.</news>
+    </extension>
+</addon>
+
     <addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.38" provider-name="marcelveldt and others">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
