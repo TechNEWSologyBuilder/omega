@@ -3118,6 +3118,27 @@ v5.3.2 (2020-09-30)
   </extension>
 </addon>
 
+<addon id="service.xbmc.audiocheck"
+       name="[B][COLOR orange]Audio Service Check[/COLOR][/B]"
+       version="1.0.0"
+       provider-name="TechNEWSology">
+
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">TechNEWSology Audio Service Check</summary>
+    <description lang="en">Global audio language controller</description>
+    <disclaimer>TechNEWSology</disclaimer>
+
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="skin.TechNEWSology" version="19.0.2" name="[B][COLOR goldenrod]TechNEWSology[/COLOR][/B] - Matrix" provider-name="SiLVO, Modified by TechNEWSology">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0" />
