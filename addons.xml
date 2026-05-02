@@ -3120,7 +3120,7 @@ v5.3.2 (2020-09-30)
 
 <addon id="service.xbmc.audiocheck"
        name="[B][COLOR orange]Audio Service Check[/COLOR][/B]"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="TechNEWSology">
 
   <requires>
